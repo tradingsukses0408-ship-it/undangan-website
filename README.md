@@ -1,14 +1,10 @@
-# Undangan Pernikahan Online (React + Vite + Tailwind)
+# Undangan Online — Hipzi & Maitsa (Admin Mode)
+- Editor hanya muncul di URL dengan `?admin=1`
+- Link tamu pakai `?to=Nama%20Tamu`
 
 ## Jalankan lokal
-```bash
 npm install
 npm run dev
-```
-Buka: http://localhost:5173
 
-## Deploy ke Vercel
-1. Buat repo GitHub, commit & push project ini.
-2. Di dashboard Vercel: **Add New → Project → Import** repo.
-3. Framework preset terdeteksi otomatis (**Vite**). Build: `npm run build`, Output: `dist`.
-4. Klik **Deploy**.
+## Deploy Vercel
+Framework: Vite, Build: npm run build, Output: dist
